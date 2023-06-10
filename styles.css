@@ -2,34 +2,43 @@ body {
     background-color: rgba(0, 0, 0, 0.892)
 }
 
-body nav ul li {
+.navi ul li {
     color: gold;
+    font-size: larger;
     display: inline;
     display: flex;
-    justify-content: space-between;
-    float: right;
     margin-left: 55px;
-    font-size: larger;
-    padding: 0%;
 }
-
-body .introduction {
+nav ul {
+    display: flex;
+    list-style: none;
+}
+.introduction {
     color: rgba(255, 217, 0, 0.864);
     font-size: 30px;
 }
-body .team {
+.team {
     color: rgba(255, 217, 0, 0.864);
     font-size: 20px;
 }
-body .forms {
+.forms {
     color: rgba(255, 217, 0, 0.864);
 }
-body .icons {
+.icons {
     color: rgba(255, 217, 0, 0.864);
     font-size: x-large;
 }
-body .footer a{
+.footer a {
     color: aqua;
     float: left;
     font-size: x-large;
+    width: 25%;
+}
+.James, .Lucy, .Diana, .Maurice {
+    width: 20%;
+    margin-left: 5%;
+}
+.contact_us {
+    float: right;
+    margin-left: 50%
 }
